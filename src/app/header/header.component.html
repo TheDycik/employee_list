@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-dark"> 
+  <a  style="font-size: 24px; color: white" class="navbar-brand">Mironov Andrew Var9</a>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a
+        class="nav-item nav-link"
+        style="font-size: 20px; color: rgb(196, 196, 196)"
+        [routerLink]="'/'"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Главная</a
+      >
+      <a
+        class="nav-item nav-link"
+        style="font-size: 20px; color: rgb(196, 196, 196)"
+        [routerLink]="'/workerlist'"
+        routerLinkActive="active"
+        >Список</a
+      >
+      <a
+        class="nav-item nav-link"
+        style="font-size: 20px; color: rgb(196, 196, 196)"
+        [routerLink]="['/adding', 0]"
+        routerLinkActive="active"
+        >Добавление</a
+      >
+    </div>
+    </div>
+</nav>

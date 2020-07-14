@@ -1,0 +1,45 @@
+<div class="m-3">
+  <form [formGroup]="itemForm" (ngSubmit)="onAddWorker()">
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Фамилия</span>
+        </div>
+        <input type="text" class="form-control" formControlName="surname">
+      </div>
+    
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Имя</span>
+        </div>
+        <input type="text" class="form-control" formControlName="name">
+      </div>
+    
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Отчество</span>
+        </div>
+        <input type="text" class="form-control" formControlName="lastname">
+      </div>
+      
+      <p>Выберите отдел:</p>
+      <div class="form-check">
+          <input class="form-check-input" type="radio" value="IT отдел" formControlName="group">
+          <label class="form-check-label">IT отдел</label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="radio" value="Отдел продаж" formControlName="group">
+          <label class="form-check-label">Отдел продаж</label>
+          
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="radio" value="Отдел доставки" formControlName="group">
+          <label class="form-check-label">Отдел доставки</label>
+      </div>
+      <div class="form-check mb-3">
+          <input class="form-check-input" type="radio" value="Юридический отдел" formControlName="group">
+          <label class="form-check-label">Юридический отдел</label>
+      </div>
+
+      <button class="btn btn-success text-white" [disabled] = "!itemForm.valid" type="submit">Сохранить</button>
+  </form>
+</div>

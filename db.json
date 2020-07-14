@@ -1,0 +1,72 @@
+{
+  "sort": [
+    {
+      "id": "0",
+      "param": "Сортировка"
+    }
+  ],
+  "filter": [
+    {
+      "id": "0",
+      "param": ""
+    }
+  ],
+  "notes": [
+    {
+      "id": 0,
+      "name": "dsfsdf",
+      "surname": "sdfsdfsd",
+      "lastname": "sdfsdf",
+      "group": "Отдел доставки"
+    },
+    {
+      "id": 1,
+      "name": "хумлы",
+      "surname": "бадягин",
+      "lastname": "вахитович",
+      "group": "Отдел продаж"
+    },
+    {
+      "id": 2,
+      "name": "Ыщекельбере",
+      "surname": "Эщкере",
+      "lastname": "Меехе",
+      "group": "Юридический отдел"
+    },
+    {
+      "id": 3,
+      "name": "Иван",
+      "surname": "Шеянов ",
+      "lastname": "Романович",
+      "group": "Юридический отдел"
+    },
+    {
+      "id": 4,
+      "name": "Игорь",
+      "surname": "Летов",
+      "lastname": "Федорович",
+      "group": "IT отдел"
+    },
+    {
+      "surname": "Ajaja",
+      "name": "Anna",
+      "lastname": "Lvovna",
+      "group": "IT отдел",
+      "id": 5
+    },
+    {
+      "surname": "Миронов",
+      "name": "Андрей",
+      "lastname": "Юрьевич",
+      "group": "Отдел доставки",
+      "id": 6
+    },
+    {
+      "surname": "Мастейн",
+      "name": "Дейв",
+      "lastname": "Джонович",
+      "group": "Юридический отдел",
+      "id": 7
+    }
+  ]
+}
